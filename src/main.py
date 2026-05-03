@@ -1,6 +1,6 @@
-from hotel_agent_client import OakwoodHotelAgent
+from hotel_agent_client import AirBnbOurFriendsHotelAgent
 
-agent = OakwoodHotelAgent()
+agent = AirBnbOurFriendsHotelAgent()
 while True:
     q = input('Guest: ')
     if q.lower()=='exit': break
